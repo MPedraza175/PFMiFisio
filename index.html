@@ -11,46 +11,47 @@
 </head>
 
 
-<body>
+<body class="container-fluid" >
+
+  
+<nav class="navbar navbar-expand-lg bg-light p-3 fs-5" id="menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./img/logonum.png" alt="" width="80px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="../assets/page/productos.html">Productos</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="../assets/page/contactos.html">Contactos</a>
+            </li>
+          </ul>
+            
+          <form class="d-flex fs-2" role="search">
+            <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="email">
+            <button class="btn btn-primary btn-primary-outline-success" type="button">Subcribite</button>
+          </form>
+        </div>
+      </div> 
+
+ </nav>
 
 
-
-
-<header class="row w-100 mx-auto navbar navbar-expand-lg bg-light p-3" id="">
-  <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./img/logonum.png" width="80px"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="./page/productos.html">Productos</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="./page/contactos.html">Contactos</a>
-          </li>
-        </ul>
-        
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="email">
-        <button class="btn btn-primary btn-primary-outline-success" type="button">Subcribite</button>
-      </form>
-    </div>
-  </div>
+<header class="container-fluid bg-primary d-flex justify-content-center">
+  <p class="text-light fs-4 mb-0">Instituto de Kinesiologia y Fisioterapia</p>
 </header>
-<main class="bg-primary d-flex justify-content-center mx-auto col-12 col-12 col-sm-12">
-  <p class="text-light mb-0">Instituto de Kinesiologia y Fisioterapia</p>
-</main>
 
 
-<nav>
+<main>
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner" data-bs-interval="4000">
 
@@ -73,11 +74,11 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-</nav>
+</main>
 
 
 <aside>
-  <section class=" row w-50 mx-auto text-center pt-5" id="intro">
+  <section class=" w-50 mx-auto text-center pt-5 col-12 col" id="intro">
     <h1 class="p-3 fs-2 border-top dober-3">Nuestra Institucion<span class="text-primary"> MiFisio </span></h1>
     <p class="P-3 fs-4 ">Promover el ejercicio de los kinesiólogos a través de la jerarquización de la práctica profesional, procurando condiciones de trabajo acordes a las necesidades y demandas de la población, como así también su justa retribución.</p>
   </section>
